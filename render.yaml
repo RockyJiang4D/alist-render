@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: dd_alist
+    name: dd_pan
     env: docker
     repo: https://github.com/RockyJiang4D/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
